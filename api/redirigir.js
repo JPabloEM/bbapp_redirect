@@ -1,5 +1,6 @@
 export default (req, res) => {
-    // Redirige al esquema personalizado
+    console.log("La función redirigir.js ha sido invocada");
+  
     res.writeHead(302, { Location: "bbapp://pagoExitoso" });
     res.end();
   };
